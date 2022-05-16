@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +23,60 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(71, 150, 125, 0.2);
+  transition: 0.5s;
+  width: 300px;
+  border-radius: 5px;
+  margin: 15px;
+
+}
+
+.card:hover {
+  box-shadow: 3px 8px 16px 10px rgba(210, 64, 64, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  height: 300px;
+  width: 300px;
+
+}
+
+.cardContent,
+.cardFooter {
+  /* background-color: #464615; */
+  padding: 2px 15px;
+}
+
+.cardContent {
+ background-color: #C4DDFF;
+}
+.cardorigin{
+background-color: #C4DDFF;
+}
+.cardFooter {
+  background-color: #7FB5FF;
+}
+
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.origin_search{
+background-color: salmon;
+padding: 10px;
+}
+
+.searchByName{
+background-color: whitesmoke;
+color: black;
+border-color: gold;
+padding: 10px;
+}
+#priceSearch{
+  background-color: silver;
+  
 }
