@@ -66,17 +66,39 @@ background-color: #C4DDFF;
   flex-wrap: wrap;
 }
 .origin_search{
-background-color: salmon;
+background-color: #D5D8B5;
 padding: 10px;
+width: 300px;
+border-radius: 5px;
+margin: 15px;
+
+
 }
 
 .searchByName{
-background-color: whitesmoke;
+background-color: #CC9C75;
 color: black;
-border-color: gold;
+border-color:#809A6F;
 padding: 10px;
+width: 200px;
+border-radius: 5px;
+margin: 15px;
+
+
 }
 #priceSearch{
-  background-color: silver;
+  background-color:#A25B5B ;
+  width: 300px;
+  border-radius: 5px;
+  margin: 15px;
+
+}
+.filters{
+  padding: 3px;
+  display: flex;
+  flex-wrap: wrap;
   
 }
+/* #Currency{
+  /* float: right; */
+/* } */ 
